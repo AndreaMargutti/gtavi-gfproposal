@@ -12,9 +12,9 @@ import AppTitle from './components/AppTitle.vue'
 
 <style scoped>
 .wrapper {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
   margin-block: 3rem;
 }
 </style>
