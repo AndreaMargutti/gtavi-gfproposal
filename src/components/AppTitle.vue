@@ -5,7 +5,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <h1 class="text-5xl font-bold text-[#fdf6f0]">{{ props.title }}</h1>
+  <h1 class="text-5xl font-bold text-white">{{ props.title }}</h1>
 </template>
 
 <style scoped>
