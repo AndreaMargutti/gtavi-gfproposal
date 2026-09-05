@@ -5,7 +5,7 @@ import BackGround from './components/BackGround.vue'
 <template>
   <BackGround />
   <div class="wrapper">
-    <h1>Accordo Legale GTA VI</h1>
+    <h1 class="text-2xl font-bold text-white">Accordo Legale GTA VI</h1>
   </div>
 </template>
 
