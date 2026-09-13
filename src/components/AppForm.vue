@@ -1,10 +1,13 @@
 <script setup lang="ts">
 import TextInput from './TextInput.vue'
 
-const inputs = [
-  { name: 'Nome', type: 'text', placeholder: 'Inserisci il tuo nome' },
-  { name: 'Ruolo', type: 'text', placeholder: 'Inserisci il tuo ruolo' },
-]
+const props = defineProps<{
+  inputs: {
+    name: string
+    type: string
+    placeholder: string
+  }[]
+}>()
 </script>
 
 <template>
